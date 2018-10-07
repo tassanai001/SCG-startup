@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Enter IP Address"
+read IP_ADDRESS
+echo "YOUR IP ADDRESS=$IP_ADDRESS"
+set REACT_NATIVE_PACKAGER_HOSTNAME
+export REACT_NATIVE_PACKAGER_HOSTNAME="$IP_ADDRESS"
+yarn start

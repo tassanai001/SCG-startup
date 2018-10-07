@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\tassa\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add native-base
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\Users\tassa\AppData\Local\Microsoft\WindowsApps;C:\Users\tassa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tassa\AppData\Roaming\npm;C:\Program Files (x86)\Kubernetes\Minikube;C:\Program Files (x86)\Brackets\command;C:\Users\tassa\AppData\Local\Android\Sdk\platform-tools;C:\Users\tassa\AppData\Local\Microsoft\WindowsApps;;C:\Users\tassa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tassa\AppData\Roaming\npm
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Labs\SCG-startup\node_modules\deep-extend\lib'
+
+npm manifest: 
+  {
+    "name": "empty-project-template",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^30.0.1",
+      "react": "16.3.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
